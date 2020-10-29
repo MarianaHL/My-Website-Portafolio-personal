@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>My Website</title>
 </head>
 <body>
@@ -20,11 +21,12 @@
             <div class="bar"></div>
           </div>
           <ul>
-            <li><a href="#hero" data-after="Home">Inicio</a></li>
-            <li><a href="#about" data-after="About">Acerca de</a></li>
-            <li><a href="#services" data-after="Service">Servicios</a></li>
-            <li><a href="#projects" data-after="Projects">Proyectos</a></li>
-            <li><a href="#contact" data-after="Contact">Contacto</a></li>
+            <li><a href="#hero" data-after="Inicio">Inicio</a></li>
+            <li><a href="#about" data-after="Acerca">Acerca</a></li>
+            <li><a href="#education" data-after="Educación">Educación</a></li>
+            <li><a href="#skills" data-after="Habilidades">Habilidades</a></li>
+            <li><a href="#projects" data-after="Proyectos">Proyectos</a></li>
+            <li><a href="#contact" data-after="Contacto">Contacto</a></li>
           </ul>
         </div>
       </div>
@@ -56,8 +58,13 @@
       <div class="col-right">
         <h1 class="section-title">Acerca <span>de </span>mi</h1>
         <h2>Front End Web Developer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="#" class="cta">Descargar cv</a>
+        <p>¡Hola! soy Mariana Hernandez Licona, y estudié Ingeniería en software en la Universidad Politécnica de Pachuca. Ahí logré consolidar mis conocimientos sobre el desarrollo de software, patrones de diseño (SOLID), paradigmas de programación (orientada a objetos, cliente-servidor, estructurada), bases de datos, entre otros.
+          <br><br>
+          Como recién egresada me encantaría poder aplicar todos mis conocimientos y al mismo tiempo seguir desarrollándome profesionalmente y así evolucionar en mi sector de modo que busco oportunidades que me permitan hacerlo.
+          <br><br>
+          Soy una persona que siempre se dispone a seguir aprendiendo y que da lo mejor de sí en cada tarea que realizo.
+          </p>
+        <a href="./cv/CV-HERNANDEZ LICONA MARIANA (1).pdf" download="CV-Mariana Hernandez Licona" class="cta">Descargar cv</a>
       </div>
     </div>
   </section>
@@ -80,9 +87,9 @@
         <div class="education-item">
           <div class="icon"><img src="https://img.icons8.com/dotty/100/000000/education.png"/></div>
           <div class="education-info">
-            <h1>2017-2020</h1>
-            <h2>Ingeniería en Software</h2>
-            <h3>Universidad Politécnica de pachuca</h3>
+            <h1>2014-2017</h1>
+            <h2>Técnico en Programación</h2>
+            <h3>CECyTE Hidalgo Plantel Omitlán</h3>
           </div>
         </div>
       </div>
@@ -97,7 +104,7 @@
   <section id="skills">
     <div class="skills container">
       <div class="service-top">
-        <h1 class="section-title">Software <span>&</span> skills</h1>
+        <h1 class="section-title">Habi<span>lid</span>ades</h1>
       </div>
       
       <div class="skills-bottom">
@@ -109,7 +116,7 @@
                 <circle cx="70" cy="70" r="70"></circle>
               </svg>
               <div class="number">
-                <h2>90<span>%</span></h2>
+                <h2>70<span>%</span></h2>
               </div>
             </div>
             <h2 class="text">html</h2>
@@ -124,7 +131,7 @@
                 <circle cx="70" cy="70" r="70"></circle>
               </svg>
               <div class="number">
-                <h2>80<span>%</span></h2>
+                <h2>40<span>%</span></h2>
               </div>
             </div>
             <h2 class="text">css</h2>
@@ -139,7 +146,7 @@
                 <circle cx="70" cy="70" r="70"></circle>
               </svg>
               <div class="number">
-                <h2>60<span>%</span></h2>
+                <h2>20<span>%</span></h2>
               </div>
             </div>
             <h2 class="text">javascript</h2>
@@ -154,10 +161,25 @@
                 <circle cx="70" cy="70" r="70"></circle>
               </svg>
               <div class="number">
-                <h2>60<span>%</span></h2>
+                <h2>40<span>%</span></h2>
               </div>
             </div>
-            <h2 class="text">javascript</h2>
+            <h2 class="text">java</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Dart</h2>
           </div>
         </div>
 
@@ -168,7 +190,7 @@
   <!-- End Software & Skills Section -->
 
   <!-- Service Section -->
-  <section id="services">
+  <!-- <section id="services">
     <div class="services container">
       <div class="service-top">
         <h1 class="section-title">Ser<span>vic</span>ios</h1>
@@ -202,7 +224,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- End Service Section -->
 
   <!-- Project Section -->
@@ -215,88 +237,38 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1>FILM-MAR</h1>
+            <div class="software">
+              <img src="https://img.icons8.com/color/144/000000/android-os.png"/>
+              <img src="https://img.icons8.com/color/240/000000/firebase.png"/>
+            </div>
+            <p>FILM-MAR es una aplicación desarrollada en Android Studio con conexión a la plataforma de Firebase. En esta app puedes encontrar un catálogo de diferentes géneros cinematográficos y cada uno de estos cuenta con una lista de películas y al seleccionar una de estas se mostrará el tráiler y una pequeña información acerca de la película.</p>
             <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
+              <a href="https://github.com/MarianaHL/FilmMar" target="_blank"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
             </div>
           </div>
           <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
+            <img src="./img/film-mar.png" alt="img">
           </div>
         </div>
   
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1>BlogApp</h1>
+            <div class="software">
+              <img src="https://img.icons8.com/color/240/000000/firebase.png"/>
+              <img src="https://img.icons8.com/color/100/000000/flutter.png"/>
+            </div>
+            <p>BlogApp es una app móvil desarrollada en Flutter con conexión a Firebase. Esta app te permite seleccionar una foto de tu galería de imágenes y agregarle una pequeña descripción que se mostrará al pie de la imagen. Estas se suben a la base de datos de Firebase para después poder mostrarlas en la aplicación.</p>
             <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
+              <a href="https://github.com/MarianaHL/BlogApp" target="_blank"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
             </div>
           </div>
           <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
+            <img src="./img/blog-app.png" alt="img">
           </div>
         </div>
-  
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
-          </div>
-        </div>
-  
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
-          </div>
-        </div>
-  
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
-          </div>
-        </div>
-  
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 6</h1>
-            <h2>Coding is love.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="social-item">
-              <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/bubbles/200/000000/github.png"/></a>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.jpg" alt="img">
-          </div>
-        </div>
-  
+
       </div>
   
     </div>
@@ -343,19 +315,19 @@
       <h2>Your complete web solution</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.facebook.com/mariana.licona.370"><img src="https://img.icons8.com/fluent/144/000000/facebook-new.png"/></a>
+          <a href="https://www.facebook.com/mariana.licona.370" target="_blank"><img src="https://img.icons8.com/fluent/144/000000/facebook-new.png"/></a>
         </div>
 
         <div class="social-item">
-          <a href="https://www.instagram.com/mar_hl13/"><img src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/></a>
+          <a href="https://www.instagram.com/mar_hl13/" target="_blank"><img src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/></a>
         </div>
 
         <div class="social-item">
-          <a href="https://twitter.com/marianitha_li13"><img src="https://img.icons8.com/fluent/144/000000/twitter.png"/></a>
+          <a href="https://twitter.com/marianitha_li13" target="_blank"><img src="https://img.icons8.com/fluent/144/000000/twitter.png"/></a>
         </div>
 
         <div class="social-item">
-          <a href="https://github.com/MarianaHL"><img src="https://img.icons8.com/fluent/144/000000/github.png"/></a>
+          <a href="https://www.linkedin.com/in/mariana-hernandez-licona-a785a21b6/" target="_blank"><img src="https://img.icons8.com/fluent/100/000000/linkedin.png"/></a>
         </div>
       </div>
       <p>Copyright &#169 2020 MarianaHL. All rights reserved</p>
